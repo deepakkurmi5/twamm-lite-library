@@ -1,0 +1,37 @@
+{
+  "name": "twamm-lite-library",
+  "version": "1.0.0",
+  "description": "twamm-lite-library for terminal",
+  "type": "module",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepakkurmi5/twamm-lite-library.git"
+  },
+  "keywords": [],
+  "author": "Deepak kurmi <deepakkurmi874@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepakkurmi5/twamm-lite-library/issues"
+  },
+  "homepage": "https://github.com/deepakkurmi5/twamm-lite-library#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.1.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-typescript": "^11.1.0",
+    "@types/react": "^18.2.6",
+    "react": "^18.2.0",
+    "rollup": "^3.21.5",
+    "rollup-plugin-dts": "^5.3.0",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.4"
+  },
+  "files": [
+    "dist"
+  ]
+}
